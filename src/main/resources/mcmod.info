@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "anubis",
+    "name": "Custom-Mod",
+    "description": "This is a Minecraft Mod.\nYou can create some Items or Blocks with the Mod.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "http://www.mcbbs.net/forum.php",
+    "updateUrl": "http://www.mcbbs.net/forum.php",
+    "authorList": [
+      "Anubis"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

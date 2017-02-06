@@ -1,0 +1,31 @@
+{
+  "name": "TestMod",
+  "items":[
+    ["testItem","test_item"],
+    ["testItem2","test_item_2"],
+    ["testItem3","test_item_3"]
+  ],
+  "crafting": {
+    "worktable_recipes": [
+      [["custom_mod:test_item_2"],
+        ["xxx","xyx","xxx","x-custom_mod:test_item;y-minecraft:diamond"]
+      ],
+      [["custom_mod:test_item"],
+        [" x ","xyx"," x ","x-minecraft:paper;y-minecraft:iron_ingot"]
+      ]
+    ],
+    "furnace_recipes": [
+      ["custom_mod:test_item_2","custom_mod:test_item_3","10000f"]
+    ]
+  },
+  "advanced": {
+    "javascript": {
+      "file":"test.js",
+      "code":[
+        "function onUseItem(id,x,y,z){",
+        " summon(\"tnt\",x,y,z);",
+        "}"
+      ]
+    }
+  }
+}

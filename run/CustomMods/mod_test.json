@@ -17,15 +17,5 @@
     "furnace_recipes": [
       ["custom_mod:test_item_2","custom_mod:test_item_3","10000f"]
     ]
-  },
-  "advanced": {
-    "javascript": {
-      "file":"test.js",
-      "code":[
-        "function onUseItem(id,x,y,z){",
-        " summon(\"tnt\",x,y,z);",
-        "}"
-      ]
-    }
   }
 }

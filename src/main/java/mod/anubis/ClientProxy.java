@@ -55,7 +55,7 @@ public class ClientProxy extends CommonProxy {
                 }
                 ModCustomClient mod = gson.fromJson(result.toString(), ModCustomClient.class);
                 MOD_JSONS.add(mod);
-                event.getModLog().info("Load the CustomMod for Client:"+mod.name);
+                event.getModLog().info("Load the CustomMod for Client:"+mod.Name);
                 mod.registers();
             }
         }

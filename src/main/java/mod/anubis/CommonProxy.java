@@ -51,7 +51,7 @@ public class CommonProxy {
                 }
                 ModCustom mod = gson.fromJson(result.toString(), ModCustom.class);
                 MOD_JSONS.add(mod);
-                event.getModLog().info("Load the CustomMod:"+mod.name);
+                event.getModLog().info("Load the CustomMod:"+mod.Name);
                 mod.registers();
             }
         }
